@@ -5,11 +5,11 @@ import com.velosobr.bookbuddy.di.appModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.GlobalContext.startKoin
 
-class MyApplication : Application() {
+class BookBuddyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         startKoin {
-            androidContext(this@MyApplication)
+            androidContext(this@BookBuddyApplication)
             modules(appModule)
         }
     }
