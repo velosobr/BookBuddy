@@ -65,6 +65,12 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
     implementation("com.google.firebase:firebase-analytics")
 
+    // Dependências do Koin
+    implementation("io.insert-koin:koin-android:3.4.0")
+    implementation("io.insert-koin:koin-android-compat:3.4.0")
+    implementation("io.insert-koin:koin-androidx-compose:3.4.0")
+
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
