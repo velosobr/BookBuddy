@@ -1,0 +1,1 @@
+Firebase Firestore, Hilt & Dagger, ROOM DB, ViewModel, Navigation & Clean Architecture
