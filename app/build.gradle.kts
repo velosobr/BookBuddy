@@ -64,6 +64,7 @@ dependencies {
     // Firebase
     implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
     implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-firestore-ktx:25.0.0")
 
     // Dependências do Koin
     implementation("io.insert-koin:koin-android:3.4.0")
